@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/siret"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <TextView
+        android:id="@+id/raisonsociale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <TextView
+        android:id="@+id/norueentr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <TextView
+        android:id="@+id/rueentr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <TextView
+        android:id="@+id/cpostalentr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <TextView
+        android:id="@+id/villeentr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <TextView
+        android:id="@+id/notel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+</LinearLayout>
