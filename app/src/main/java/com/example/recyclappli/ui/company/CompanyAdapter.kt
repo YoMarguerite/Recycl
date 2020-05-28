@@ -16,11 +16,11 @@ class CompanyAdapter(private val inflater: LayoutInflater, private val listCompa
         val siret = rowView.findViewById(R.id.siret) as TextView
         val raisonsociale = rowView.findViewById(R.id.raisonsociale) as TextView
         val norueentr = rowView.findViewById(R.id.norueentr) as TextView
-        val rueentr = rowView.findViewById(R.id.norueentr) as TextView
-        val cpostalentr = rowView.findViewById(R.id.norueentr) as TextView
-        val villeentr = rowView.findViewById(R.id.norueentr) as TextView
-        val notel = rowView.findViewById(R.id.norueentr) as TextView
-        val contact = rowView.findViewById(R.id.norueentr) as TextView
+        val rueentr = rowView.findViewById(R.id.rueentr) as TextView
+        val cpostalentr = rowView.findViewById(R.id.cpostalentr) as TextView
+        val villeentr = rowView.findViewById(R.id.villeentr) as TextView
+        val notel = rowView.findViewById(R.id.notel) as TextView
+        val contact = rowView.findViewById(R.id.contact) as TextView
 
         siret.text = listCompany[position].siret.toString()
         raisonsociale.text = listCompany[position].raisonsociale
