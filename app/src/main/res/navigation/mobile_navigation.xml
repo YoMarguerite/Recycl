@@ -18,8 +18,8 @@
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.recyclappli.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_trash"
+        android:name="com.example.recyclappli.ui.trash.TrashFragment"
+        android:label="@string/title_trash"
+        tools:layout="@layout/fragment_trash" />
 </navigation>

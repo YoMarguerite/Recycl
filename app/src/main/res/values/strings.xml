@@ -2,6 +2,6 @@
     <string name="app_name">RecyclAppli</string>
     <string name="title_company">Entreprise</string>
     <string name="title_request">Demande</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_trash">Trash</string>
     <string name="button">Valider</string>
 </resources>
